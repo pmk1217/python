@@ -4,4 +4,4 @@ import sys
 
 
 du=input("입력 : ")
-print("입력은", du, "입니다")
+print("입력은", du, "입니다.", sep="")

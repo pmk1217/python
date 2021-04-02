@@ -1,0 +1,6 @@
+f = open('du.txt', 'w')
+f.write('computer\nand information')
+f.close() 
+f = open('du.txt')
+print(f.read())
+f.close()
